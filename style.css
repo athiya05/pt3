@@ -1,0 +1,54 @@
+/*Performance Task 3*/
+body {
+    background: gray;
+    padding: 0;
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+    margin: 10px;
+}
+/*Navigation*/
+nav {
+    border: 1px;
+    background: rgb(163, 189, 238);
+    width: 100%;
+    height: 57px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    width: 50%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000000;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(175, 72, 72);
+}
+
+p {
+    font-size: 20px;
+    width: 85%;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.frame {
+    float: right;
+}
